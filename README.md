@@ -107,6 +107,7 @@ The following table lists the testing scenarios for the Frequency of occurance p
 The following table lists the testing scenarios for the Binary Search program:
 
 | Type | Tester Action and Input Data | Expected Outcome |
+| --- | --- | --- |
 | EP | A=[1,2,3,4,5], V=3 | 3 |
 | EP | A=[2,3,4], V=1 | -1 |
 | EP | A=[1,2,3], V=5 | -1 |
@@ -124,6 +125,7 @@ The following table lists the testing scenarios for the Binary Search program:
 The following table lists the testing scenarios for the Triangles program:
 
 | Type | Tester Action and Input Data | Expected Outcome |
+| --- | --- | --- |
 | EP | a = 5, b = 5, c = 5 | 0 |
 | EP | a = 6, b = 6, c = 4 | 1 |
 | EP | a = 3, b = 4, c = 5 | 2 |
@@ -144,6 +146,7 @@ The following table lists the testing scenarios for the Triangles program:
 The following table lists the testing scenarios for the Prefix of the String program:
 
 | Type | Tester Action and Input Data | Expected Outcome |
+| --- | --- | --- |
 | EP | s1 = "hello", s2 = "hello world" | true |
 | EP | s1 = "apple", s2 = "apples" | true |
 | EP | s1 = "", s2 = "hello" | false |
