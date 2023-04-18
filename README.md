@@ -66,5 +66,45 @@ The following tables list the partitions for the day, month, and year inputs:
 | E11 | Less than 1900 | Invalid | 
 | E12 | Greater than 2015 | Invalid | 
 
+# Program Testing Scenarios
 ## Program - 1 Linear Search
+
+**Note: EP - Equivalence Partitioning and BVA - Boundary Value Analysis**
+
+
+The following table lists the testing scenarios for the linearSearch program:
+
+| Type | Tester Action and Input Data | Expected Outcome |
+| --- | --- | --- |
+| EP | A=[1,2,3,4],v=4 | 3 |
+| EP | A=[1,2,3],v=4 | -1 |
+| BVA | A=[], v=2 | -1 |
+| BVA | A=[2], v=2 | 0 |
+| BVA | A=[0], v=0 | 0 |
+| BVA | A=[1, 2,...,9998, 9999], v=9999 | 9999 |
+
+![image](https://user-images.githubusercontent.com/75672638/232803120-06726719-7785-4b41-9c96-805369078a17.png)
+
+
+## Program - 2 Frequency of occurance
+
+The following table lists the testing scenarios for the Frequency of occurance program:
+
+| Type | Tester Action and Input Data | Expected Outcome |
+| --- | --- | --- |
+| EP | A=[1,2,3,4,3], V=4 | 2 |
+| EP | A=[1,1,1,1], V=1 | 4 |
+| EP | A=[1,2,3], V= 'x' | Invalid input |
+| EP | A=[1,2,3], V= null | Invalid input |
+| BVA | A=[], V=2 | 0 (Invalid Input) |
+| BVA | A=[-2147483648, 1, 2, 3], V= -2147483648 | 1 |
+| BVA | A=[2,2,2], V=2 | 3 |
+
+![image](https://user-images.githubusercontent.com/75672638/232805588-34a9bb89-04a1-471b-8cd4-a5f48ab07d55.png)
+
+## Program - 3 Binary Search
+
+
+
+
 
