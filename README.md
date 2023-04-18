@@ -104,7 +104,56 @@ The following table lists the testing scenarios for the Frequency of occurance p
 
 ## Program - 3 Binary Search
 
+The following table lists the testing scenarios for the Binary Search program:
+
+| Type | Tester Action and Input Data | Expected Outcome |
+| EP | A=[1,2,3,4,5], V=3 | 3 |
+| EP | A=[2,3,4], V=1 | -1 |
+| EP | A=[1,2,3], V=5 | -1 |
+| EP | A=[1,2,3,5], V=4 | -1 |
+| BVA | A=[1,2,3], V=1 | 0 |
+| BVA | A=[1,2,3], V=3 | 2 |
+| BVA | A=[1,2,3], V=2 | 1 |
+
+![image](https://user-images.githubusercontent.com/75672638/232845078-a6f49ae0-7d34-48d3-b1e4-2eedef8f84c4.png)
 
 
+
+## Program - 4 Triangles
+
+The following table lists the testing scenarios for the Triangles program:
+
+| Type | Tester Action and Input Data | Expected Outcome |
+| EP | a = 5, b = 5, c = 5 | 0 |
+| EP | a = 6, b = 6, c = 4 | 1 |
+| EP | a = 3, b = 4, c = 5 | 2 |
+| EP | a = 0, b = 0, c = 0 | 3 |
+| EP | a=-1, b=-2, c=-3 | 3 |
+| BVA | a = 1, b = 1, c = 1 | 0 |
+| BVA | a = 2, b = 3, c = 4 | 2 |
+| BVA | a = 1, b = 2, c = 3 | 3 |
+| BVA | a = 3, b = 4, c = 7 | 3 |
+| BVA | a = 6, b = 2, c = 5 | 2 |
+| BVA | a = 8, b = 2, c = 5 | 3 |
+
+
+![image](https://user-images.githubusercontent.com/75672638/232845205-0d08dbb6-7be3-4709-a912-297b68e5fbf9.png)
+
+## Program - 5 Prefix of String
+
+The following table lists the testing scenarios for the Prefix of the String program:
+
+| Type | Tester Action and Input Data | Expected Outcome |
+| EP | s1 = "hello", s2 = "hello world" | true |
+| EP | s1 = "apple", s2 = "apples" | true |
+| EP | s1 = "", s2 = "hello" | false |
+| EP | s1 = null, s2 = "hello world" | false |
+| BVA | s1 = "", s2 = "" | true |
+| BVA | s1 = "a", s2 = "a" | true |
+| BVA | s1 = "abcdefghijklmnopqrstuvwxyz", s2 = "abcdefghijklmnopqrstuvwxyz" | true |
+| BVA | s1 = null, s2 = null | false |
+| BVA | s1 = "a", s2 = "b" | false |
+
+![image](https://user-images.githubusercontent.com/75672638/232845283-d9178a77-be2f-40f5-9b86-5fd21ceab167.png)
 
 
