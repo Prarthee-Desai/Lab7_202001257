@@ -65,3 +65,6 @@ The following tables list the partitions for the day, month, and year inputs:
 | E10 | Between 1900 and 2015 | Valid | 
 | E11 | Less than 1900 | Invalid | 
 | E12 | Greater than 2015 | Invalid | 
+
+## Program - 1 Linear Search
+
