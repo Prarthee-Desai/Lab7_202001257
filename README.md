@@ -292,4 +292,46 @@ Input: a = -2, b = 4, c = 0
 
 Expected output: Invalid
 
+![image](https://user-images.githubusercontent.com/75672638/232847160-b5a521b3-e16b-4720-821f-7eee63f59dbe.png)
+
+
 # Section B
+
+
+1. 
+ * The following is the java code for the given pseudocode:
+
+![image](https://user-images.githubusercontent.com/75672638/232847358-c64f217c-0ffa-4642-9a5e-d0fb7bc59be2.png)
+
+* The following is the image of a control flow graph:
+
+![image](https://user-images.githubusercontent.com/75672638/232847649-903ff2b8-f640-43dc-937d-f3d51bec3a8c.png)
+
+2.
+
+**a. Statement Coverage**
+
+Test 1: p = {new Point(0, 0), new Point(1, 1)}
+
+Test 2: p = {new Point(0, 0), new Point(1, 0), new Point(2, 0)}
+ 
+**b. Branch Coverage**
+
+Test 1: p = {new Point(0, 0), new Point(1, 1)}
+
+Test 2: p = {new Point(0, 0), new Point(1, 0), new Point(2, 0)}
+
+Test 3: p = {new Point(0, 0), new Point(1, 0), new Point(1, 1)}
+ 
+**c. Basic Condition Coverage**
+
+Test 1: p = {new Point(0, 0), new Point(1, 1)}
+
+Test 2: p = {new Point(0, 0), new Point(1, 0), new Point(2, 0)}
+
+Test 3: p = {new Point(0, 0), new Point(1, 0), new Point(1, 1)}
+
+Test 4: p = {new Point(0, 0), new Point(1, 0), new Point(0, 1)}
+
+Test 5: p = {new Point(0, 0), new Point(0, 1), new Point(1, 1)}
+
