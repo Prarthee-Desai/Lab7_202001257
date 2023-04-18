@@ -159,4 +159,137 @@ The following table lists the testing scenarios for the Prefix of the String pro
 
 ![image](https://user-images.githubusercontent.com/75672638/232845283-d9178a77-be2f-40f5-9b86-5fd21ceab167.png)
 
+## Program - 6 Triangle with different specifications
 
+**(a)** Equivalence Classes: Isosceles, equilateral, scalene, invalid
+
+**(b)** Equivalence Class 1:
+
+* EQUILATERAL Triangle - Input: a = 5, b = 5, c = 5
+
+Expected Output: EQUILATERAL
+
+* Equivalence Class 2: ISOSCELES Triangle - Input: a = 6, b = 6, c = 4
+
+Expected Output: ISOSCELES
+
+* Equivalence Class 3: SCALENE Triangle - Input: a = 3, b = 4, c = 5
+
+Expected Output: SCALENE 
+* Equivalence Class 4: INVALID Triangle - Input: a = 0, b = 0, c = 0
+
+Expected Output: INVALID
+
+**(c)**
+
+* Boundary Test Case 1: a + b = c - 1
+
+Input: a = 2, b = 3, c = 4
+
+Expected Output: INVALID
+
+* Boundary Test Case 2: a + b = c + 1
+
+Input: a = 3, b = 4, c = 7
+
+Expected Output: INVALID
+
+* Boundary Test Case 3: a = b + c - 1
+
+Input: a = 6, b = 2, c = 5
+
+Expected Output: INVALID
+
+* Boundary Test Case 4: a = b + c
+
+Input: a = 7, b = 2, c = 5
+
+Expected Output: INVALID
+
+* Boundary Test Case 5: a = b + c + 1
+
+Input: a = 8, b = 2, c = 5
+
+Expected Output: INVALID
+
+**(d)**
+
+* Boundary Test Case 1: a = c - 1, b<a+c
+
+Input: a = 2, b = 1, c = 4
+
+Expected Output: scalene
+
+* Boundary Test Case 2: a = c + 1, b < a+c
+
+Input: a = 8, b = 4, c = 7
+
+Expected Output: scalene
+
+**(e)**
+
+* Boundary Test Case 1: a = b = c +1
+
+Input: a = 2, b = 2, c = 1
+
+Expected Output: isosceles
+
+* Boundary Test Case 2: a = b = c - 1
+
+Input: a = 6, b = 6, c = 7
+
+Expected Output: isosceles
+
+* Boundary Test Case 3: a + 1 = b = c - 1
+
+Input: a = 2, b = 3, c = 4
+
+Expected Output: scalene
+
+**(f)**
+
+Input: a = 3, b = 4, c = 5
+
+Expected Output: scalene (valid right-angle triangle)
+
+Input: a = 5, b = 4, c = 3
+
+Expected Output: scalene (valid right-angle triangle)
+
+Input: a = 6, b = 8, c = 10
+
+Expected Output: scalene (valid right-angle triangle)
+
+Input: a = 1, b = 1, c = 2
+
+Expected Output: Invalid (invalid triangle)
+
+Input: a = 3, b = 3, c = 3
+
+Expected Output: equilateral (equilateral triangle)
+
+Input: a = 4, b = 4, c = 7
+
+Expected Output: isosceles (isosceles triangle)
+
+**(g)**
+
+Input: a = 1, b = 1, c = 1
+
+Expected Output: EQUILATERAL
+
+Input: a = 0, b = 0, c = 0
+
+Expected Output: Invalid
+
+**(h)**
+
+Input: a = -1, b = -2, c = -3
+
+Expected Output: Invalid
+
+Input: a = -2, b = 4, c = 0
+
+Expected output: Invalid
+
+# Section B
